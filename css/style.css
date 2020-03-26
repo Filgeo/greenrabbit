@@ -1,6 +1,7 @@
 /* CSS Document */
 
 /* General Font */
+
 body, html {
 	height: 100%;
 }
@@ -14,7 +15,7 @@ h1 {
 	font-size: 2.5rem;
 }
 
-h2{
+h2 {
 	font-size: 2.5rem;
 }
 
@@ -40,6 +41,12 @@ p {
 	width: 120px;
 }
 
+.myNavbar {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
 .nav-wrapper {
 	background: white;
 	padding-top: 10px;
@@ -55,7 +62,7 @@ p {
 	font-size: 2rem;
 }
 
-.myActive{
+.myActive {
 	border-bottom: 2px solid white;
 }
 
@@ -75,15 +82,13 @@ p {
 	box-shadow: 5px 5px 10px rgb(37, 56, 23);
 }
 
-.btn-floating{
+.btn-floating {
 	background-color: #F18815;
 }
 
-.btn-floating:hover{
+.btn-floating:hover {
 	background-color: #FDCF5C;
 }
-
-
 
 /* Backgrounds */
 
@@ -114,6 +119,7 @@ p {
 	display: flex;
 	align-items: center;
 }
+
 /* 
 .bgMenuMobile h2 {
 	font-size: 2rem;
@@ -123,8 +129,7 @@ p {
 	font-size: 1.2rem;
 } */
 
-
-.bgKontaktMobile{
+.bgKontaktMobile {
 	background-image: url("../img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
@@ -133,7 +138,6 @@ p {
 	display: flex;
 	align-items: center;
 }
-
 
 /* Mobile Card */
 
@@ -234,7 +238,7 @@ p {
 	background-position: center;
 }
 
-.mobileMobilitySeparator{
+.mobileMobilitySeparator {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
@@ -242,7 +246,6 @@ p {
 	background-size: cover;
 	background-position: center;
 }
-
 
 .mobileTableSeparator {
 	flex: 1;
@@ -253,7 +256,7 @@ p {
 	background-position: center;
 }
 
-.mobileSeparatorImage1{
+.mobileSeparatorImage1 {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
@@ -262,7 +265,7 @@ p {
 	background-position: center;
 }
 
-.mobileSeparatorImage2{
+.mobileSeparatorImage2 {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
@@ -272,6 +275,7 @@ p {
 }
 
 /* contact form */
+
 .myMobileCardKontakt {
 	width: 70vw;
 	max-width: 700px;
@@ -286,21 +290,22 @@ p {
 	transform: translateY(-30px)
 }
 
-textarea{
+textarea {
 	resize: none;
 }
 
-.myMessage{
+.myMessage {
 	background-color: white;
 	flex: 10;
 	margin-bottom: 30px;
 }
-.contactItem{
+
+.contactItem {
 	flex: 1;
 	display: flex;
 }
 
-.myContactButton{
+.myContactButton {
 	background-color: #699F41;
 	padding: 0.5em 2em;
 	text-decoration: none;
@@ -347,30 +352,24 @@ textarea{
 /* footer */
 
 @media(min-width: 800px) {
-	
-	.mobileSeparatorImage1{
-		display:none;
+	.mobileSeparatorImage1 {
+		display: none;
 	}
-
-	.mobileSeparatorImage2{
-		display:none;
+	.mobileSeparatorImage2 {
+		display: none;
 	}
-
 	.mySeparator {
 		height: 150px;
 	}
-
-	.varContent{
+	.varContent {
 		display: flex;
 		max-width: 1024px;
 		margin: 0 auto;
 	}
-	.varContent .myContent{
+	.varContent .myContent {
 		flex: 1;
 		padding: 20px 50px;
 	}
-
-
 	footer .center, footer p {
 		text-align: left;
 	}
@@ -387,7 +386,6 @@ textarea{
 }
 
 @media(min-width: 992px) {
-
 	/* Navigation and Hero */
 	.navText {
 		color: white;
@@ -407,11 +405,7 @@ textarea{
 	.myContent {
 		padding: 20vh 10vw;
 	}
-
-
-
 	/* Cards */
-
 	.myMobileCard {
 		transform: translateY(-10vh);
 		display: flex;
@@ -450,7 +444,6 @@ textarea{
 		justify-content: center;
 		text-align: center;
 	}
-
 	.desktopCard {
 		flex: 3;
 		margin: auto;
@@ -459,16 +452,14 @@ textarea{
 		display: flex;
 		flex-direction: column;
 	}
-	
-	.desktopCardWir{
+	.desktopCardWir {
 		padding: 50px 20px;
 		justify-content: center;
-		flex:1;
+		flex: 1;
 		color: white;
 		display: flex;
 		align-items: center;
 	}
-
 	/* Backgrounds */
 	.bgHome {
 		background-image: url("../img/bilder/syd-wachs-epqNIYI6S7E-unsplash.jpg");
@@ -498,25 +489,22 @@ textarea{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	.bgKontakt{
+	.bgKontakt {
 		background-image: url("../img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
 		height: 100%;
 		background-position: top;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
-	.parallaxHome{
+	.parallaxHome {
 		background-size: cover;
 		background-image: url("../img/bilder/a-brussel-sprout-on-green-surface.jpg");
 	}
-
 	/* überUns */
 	.vl {
 		border-left: 2px solid white;
 		height: 250px;
 	}
-
 	/* carousel */
 	.carousel {
 		transform: translateY(-50px);
