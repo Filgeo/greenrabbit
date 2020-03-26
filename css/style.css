@@ -88,7 +88,7 @@ p {
 /* Backgrounds */
 
 .bgMenuMobile {
-	background-image: url("/img/bilder/yu-hosoi-qplKfNIP_5g-unsplash.jpg");
+	background-image: url("img/bilder/yu-hosoi-qplKfNIP_5g-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -106,7 +106,7 @@ p {
 }
 
 .bgUnternehmenMobile {
-	background-image: url("/img/bilder/nadine-primeau-l5Mjl9qH8VU-unsplash.jpg");
+	background-image: url("img/bilder/nadine-primeau-l5Mjl9qH8VU-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -125,7 +125,7 @@ p {
 
 
 .bgKontaktMobile{
-	background-image: url("/img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
+	background-image: url("img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -193,7 +193,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/IMG_1025.JPG");
+	background-image: url("img/IMG_1025.JPG");
 	background-size: cover;
 	background-position: right;
 }
@@ -202,7 +202,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/fresh-vegetables-flatlay.jpg");
+	background-image: url("img/fresh-vegetables-flatlay.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -211,7 +211,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/bilder/a-brussel-sprout-on-green-surface.jpg");
+	background-image: url("img/bilder/a-brussel-sprout-on-green-surface.jpg");
 	background-size: cover;
 	background-position: right;
 }
@@ -220,7 +220,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/frieda-kocht.jpg");
+	background-image: url("img/frieda-kocht.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -229,7 +229,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/SmartFridge.jpg");
+	background-image: url("img/SmartFridge.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -238,7 +238,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/streetscooter.jpg");
+	background-image: url("img/streetscooter.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -248,7 +248,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/selective-focus-photography-of-cooked-food-1954526.jpg");
+	background-image: url("img/selective-focus-photography-of-cooked-food-1954526.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -257,7 +257,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/bilder/composition-web.jpg");
+	background-image: url("img/bilder/composition-web.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -266,7 +266,7 @@ p {
 	flex: 1;
 	padding: 0px 50px;
 	min-height: 500px;
-	background-image: url("/img/bilder/foodism360-Gwak7T9evEk-unsplash.jpg");
+	background-image: url("img/bilder/foodism360-Gwak7T9evEk-unsplash.jpg");
 	background-size: cover;
 	background-position: center;
 }
@@ -420,12 +420,12 @@ textarea{
 	}
 	.myMobileCardImageMenu {
 		flex: 2;
-		background-image: url("/img/Vietnamesischer-Rindfleischsalat.jpg");
+		background-image: url("img/Vietnamesischer-Rindfleischsalat.jpg");
 		background-size: cover;
 	}
 	.myMobileCardImageUnternehmen {
 		flex: 2;
-		background-image: url("/img/SmartFridge.jpg");
+		background-image: url("img/SmartFridge.jpg");
 		background-size: cover;
 		background-position: center;
 	}
@@ -471,35 +471,35 @@ textarea{
 
 	/* Backgrounds */
 	.bgHome {
-		background-image: url("/img/bilder/syd-wachs-epqNIYI6S7E-unsplash.jpg");
+		background-image: url("img/bilder/syd-wachs-epqNIYI6S7E-unsplash.jpg");
 		height: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.bgMenu {
-		background-image: url("/img/bilder/yu-hosoi-qplKfNIP_5g-unsplash.jpg");
+		background-image: url("img/bilder/yu-hosoi-qplKfNIP_5g-unsplash.jpg");
 		height: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.bgAboutUs {
-		background-image: url("/img/bilder/peter-wendt--r5KSMkyoSc-unsplash.jpg");
+		background-image: url("img/bilder/peter-wendt--r5KSMkyoSc-unsplash.jpg");
 		height: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.bgUnternehmen {
-		background-image: url("/img/bilder/nadine-primeau-l5Mjl9qH8VU-unsplash.jpg");
+		background-image: url("img/bilder/nadine-primeau-l5Mjl9qH8VU-unsplash.jpg");
 		height: 100%;
 		background-position: top;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
 	.bgKontakt{
-		background-image: url("/img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
+		background-image: url("img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
 		height: 100%;
 		background-position: top;
 		background-repeat: no-repeat;
@@ -508,7 +508,7 @@ textarea{
 
 	.parallaxHome{
 		background-size: cover;
-		background-image: url("/img/bilder/a-brussel-sprout-on-green-surface.jpg");
+		background-image: url("img/bilder/a-brussel-sprout-on-green-surface.jpg");
 	}
 
 	/* überUns */
