@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="205" height="205" viewBox="0 0 205 205">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fdcf5c;
+        stroke: #f2f2f2;
+        stroke-width: 15px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="VorteileMitarbeiter4" transform="translate(-2381.626 -426.761)">
+    <circle id="Ellipse_26" data-name="Ellipse 26" class="cls-1" cx="95" cy="95" r="95" transform="translate(2389.126 434.261)"/>
+    <g id="Gruppe_82" data-name="Gruppe 82" transform="translate(-5.731 11.572)">
+      <g id="Gruppe_81" data-name="Gruppe 81" transform="translate(2458.437 464.065)">
+        <path id="Pfad_139" data-name="Pfad 139" class="cls-2" d="M2489.079,464.065c10.2.218,18.271,3.944,24.516,11.385a30.159,30.159,0,0,1,6.756,15.248,36.43,36.43,0,0,1-1.251,14.86,124.712,124.712,0,0,1-8.317,21.55,314.687,314.687,0,0,1-17.716,31.759q-1.122,1.789-2.278,3.558c-.729,1.109-1.511,1.13-2.286.051q-6.944-9.675-12.948-19.962a176.811,176.811,0,0,1-10.82-21.442c-2.838-6.873-5.183-13.894-6.039-21.334-1.032-8.981,1-17.144,6.753-24.185a30.183,30.183,0,0,1,19.679-11.107C2486.6,464.232,2488.089,464.157,2489.079,464.065Zm14.866,31.883a14.385,14.385,0,1,0-14.4,14.353A14.4,14.4,0,0,0,2503.945,495.948Z" transform="translate(-2458.437 -464.065)"/>
+      </g>
+      <ellipse id="Ellipse_27" data-name="Ellipse 27" class="cls-2" cx="26.736" cy="3.413" rx="26.736" ry="3.413" transform="translate(2462.17 566.422)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.072" height="30.334" viewBox="0 0 41.072 30.334">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+      }
+    </style>
+  </defs>
+  <path id="Pfeil" class="cls-1" d="M188.712,405.818v10.141l23.677-15.167-23.677-15.167v10.141H171.317v10.051Z" transform="translate(-171.317 -385.625)"/>
+</svg>

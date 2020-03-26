@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GreenRabbit Home</title>
+	<meta name="description" content="GreenRabbit ist ein innovatives Unternehmen für Essen Lieferungen">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Nav -->
+	<div class="navbar-fixed hide-on-large-only">
+		<nav class="nav-wrapper">
+			<div>
+				<a href="#" class="brand-logo"><img src="/img/GreenRabbitLogoRGB.svg" alt=""></a>
+				<a href="#" class="sidenav-trigger" data-target="mobile-links">
+					<i class="material-icons black-text">menu</i>
+				</a>
+			</div>
+		</nav>
+	</div>
+
+	<ul class="sidenav" id="mobile-links">
+		<div class="center" style="padding-top: 30px; height: 150px; width: auto; ">
+			<img style="height: 100px;" src="/img/Logo-carrot.svg" alt="">
+		</div>
+		<li><a class="navText" href="index.html">Home</a></li>
+		<li><a class="navText" href="menue.html">Menü</a></li>
+		<li><a class="navText" href="unternehmen.html">Für Unternehmen</a></li>
+		<li><a class="navText" href="wir.html">Über uns</a></li>
+		<li><a class="navText" href="kontakt.html">Kontakt</a></li>
+	</ul>
+	<!-- nav ende -->
+
+	<!-- Mobile Hero -->
+	<div class="hide-on-large-only bgKontaktMobile">
+		<div class="myMobileCardKontakt">
+			<div class="contactItem input-field">
+				<i class="material-icons prefix">account_circle</i>
+				<input id="text" type="text" class="validate">
+				<label for="text">Vorname, Nachname</label>
+			</div>
+			<div class="contactItem input-field">
+				<i class="material-icons prefix">phone</i>
+				<input id="telefon" type="tel" class="validate">
+				<label for="telefon">Telefon</label>
+			</div>
+			<div class="contactItem input-field">
+				<i class="material-icons prefix">mail</i>
+				<input id="email" type="email" class="validate">
+				<label for="email">Email</label>
+			</div>
+			<textarea class="input-field myMessage" name="message" id="message"></textarea>
+			<div class="myContactButton">Absenden</div>
+		</div>
+	</div>
+	<!-- Mobile Hero Ende -->
+
+	<!-- Desktop Hero -->
+	<div class="bgKontakt ">
+		<div style="display: flex; justify-content: center;">
+			<header class="hide-on-med-and-down">
+				<span class="logo">
+					<img src="/img/GreenRabbitLogoRGBWhite.svg" style="width: 150px" alt="GreenRabbit">
+				</span>
+				<span>
+					<a class="navText" href="index.html">Home</a>
+					<a class="navText" href="menue.html">Menü</a>
+					<a class="navText" href="unternehmen.html">Für Unternehmen</a>
+					<a class="navText" href="wir.html">Über uns</a>
+					<a class="navText myActive" href="kontakt.html">Kontakt</a>
+				</span>
+			</header>
+		</div>
+		<div class="hide-on-med-and-down" style="display: flex; height: 90vh">
+			<div class="myMobileCardKontakt card hide-on-med-and-down">
+				<div class="contactItem input-field">
+					<i class="material-icons prefix">account_circle</i>
+					<input id="text2" type="text" class="validate">
+					<label for="text2">Vorname, Nachname</label>
+				</div>
+				<div class="contactItem input-field">
+					<i class="material-icons prefix">phone</i>
+					<input id="telefon2" type="tel" class="validate">
+					<label for="telefon2">Telefon</label>
+				</div>
+				<div class="contactItem input-field">
+					<i class="material-icons prefix">mail</i>
+					<input id="email2" type="email" class="validate">
+					<label for="email2">Email</label>
+				</div>
+				<textarea class="input-field myMessage" name="message" id="message2"></textarea>
+				<div class="myContactButton">Absenden</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- footer -->
+	<footer class="page-footer grey">
+		<div class="container">
+			<div class="row">
+				<div class="col l6 s12 center">
+					<h5 class="white-text">GreenRabbit GmbH</h5>
+					<p class="grey-text text-lighten-4">info@greenrabbitfood.de <br>Dellbrücker Steinweg 8
+						<br>51069
+						Köln</p>
+				</div>
+				<div class="col l4 offset-l2 s12 center">
+					<div class="divider"></div>
+					<h5 class="white-text">Links:</h5>
+					<ul>
+						<span>
+							<a class="grey-text text-lighten-3" href="wir.html">Über uns |</a>
+							<a class="grey-text text-lighten-3" href="kontakt.html">Kontakt |</a>
+							<a class="grey-text text-lighten-3" href="#!">Impressum |</a>
+							<a class="grey-text text-lighten-3" href="#!">Datenschutz</a>
+						</span>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-copyright grey">
+			<div class="container center">
+				© 2020 Copyright GreenRabbit GmbH
+			</div>
+		</div>
+	</footer>
+	<!-- footer ende -->
+	<!-- floating button -->
+	<div class="fixed-action-btn">
+		<a class="btn-floating btn-large">
+			<i class="large material-icons">question_answer</i>
+		</a>
+		<ul>
+			<li><a class="btn-floating green darken-3"><i class="material-icons">phone</i></a></li>
+			<li><a href="mailto:info@greenrabbitfood.de" class="btn-floating green darken-3"><i
+						class="material-icons">mail</i></a></li>
+		</ul>
+	</div>
+
+	<!-- js links -->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="index.js"></script>
+</body>
+
+</html>

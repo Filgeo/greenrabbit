@@ -1,0 +1,531 @@
+/* CSS Document */
+
+/* General Font */
+body, html {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1 {
+	line-height: 2.5rem;
+	font-size: 2.5rem;
+}
+
+h2{
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+	text-align: center;
+}
+
+h5 {
+	color: white;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+}
+
+p {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+/* Navigation and Buttons */
+
+.brand-logo {
+	width: 120px;
+}
+
+.nav-wrapper {
+	background: white;
+	padding-top: 10px;
+}
+
+.navText {
+	color: black;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.5rem;
+}
+
+.sidenav .navText {
+	font-size: 2rem;
+}
+
+.myActive{
+	border-bottom: 2px solid white;
+}
+
+.myButton {
+	background-color: #699F41;
+	padding: 0.5em 2em;
+	text-decoration: none;
+	border-radius: 40px;
+	margin: 3em 0;
+	color: white;
+	transition: 0.3s;
+	font-weight: 700;
+	text-align: center;
+}
+
+.myButton:hover {
+	box-shadow: 5px 5px 10px rgb(37, 56, 23);
+}
+
+.btn-floating{
+	background-color: #F18815;
+}
+
+.btn-floating:hover{
+	background-color: #FDCF5C;
+}
+
+
+
+/* Backgrounds */
+
+.bgMenuMobile {
+	background-image: url("/img/bilder/yu-hosoi-qplKfNIP_5g-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+
+.bgMenuMobile h2 {
+	font-size: 2rem;
+}
+
+.bgMenuMobile p {
+	font-size: 1.2rem;
+}
+
+.bgUnternehmenMobile {
+	background-image: url("/img/bilder/nadine-primeau-l5Mjl9qH8VU-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 500px;
+	display: flex;
+	align-items: center;
+}
+/* 
+.bgMenuMobile h2 {
+	font-size: 2rem;
+}
+
+.bgMenuMobile p {
+	font-size: 1.2rem;
+} */
+
+
+.bgKontaktMobile{
+	background-image: url("/img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+
+
+/* Mobile Card */
+
+.myMobileCard {
+	min-width: 250px;
+	max-width: 60vw;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: auto;
+	align-items: stretch;
+}
+
+.myMobileCard p {
+	padding-bottom: 50px;
+}
+
+.card-title {
+	text-align: center;
+}
+
+/* Process */
+
+.processIcon {
+	margin: 5vh 0px;
+}
+
+.processIcon h3 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 2rem;
+}
+
+.processIcon p {
+	line-height: 2rem;
+}
+
+.myProcessContent {
+	max-width: 1024px;
+	display: flex;
+	margin: 0 auto;
+	flex-flow: row wrap;
+}
+
+/* General Content */
+
+.myContent {
+	padding: 20vw 15vw;
+	align-self: center;
+	text-align: center;
+	/* line-height: 40px; */
+	line-height: 3rem;
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mobileCompositeSeparator {
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/IMG_1025.JPG");
+	background-size: cover;
+	background-position: right;
+}
+
+.mobileCookingSeparator {
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/fresh-vegetables-flatlay.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.mobileFreshnessSeparator {
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/bilder/a-brussel-sprout-on-green-surface.jpg");
+	background-size: cover;
+	background-position: right;
+}
+
+.mobileFriedaSeparator {
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/frieda-kocht.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.mobileFridgeSeparator {
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/SmartFridge.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.mobileMobilitySeparator{
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/streetscooter.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+
+.mobileTableSeparator {
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/selective-focus-photography-of-cooked-food-1954526.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.mobileSeparatorImage1{
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/bilder/composition-web.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.mobileSeparatorImage2{
+	flex: 1;
+	padding: 0px 50px;
+	min-height: 500px;
+	background-image: url("/img/bilder/foodism360-Gwak7T9evEk-unsplash.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+/* contact form */
+.myMobileCardKontakt {
+	width: 70vw;
+	max-width: 700px;
+	min-height: 450px;
+	height: 60vh;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.7);
+	margin: auto;
+	padding: 10px 10px;
+	display: flex;
+	flex-direction: column;
+	transform: translateY(-30px)
+}
+
+textarea{
+	resize: none;
+}
+
+.myMessage{
+	background-color: white;
+	flex: 10;
+	margin-bottom: 30px;
+}
+.contactItem{
+	flex: 1;
+	display: flex;
+}
+
+.myContactButton{
+	background-color: #699F41;
+	padding: 0.5em 2em;
+	text-decoration: none;
+	border-radius: 40px;
+	color: white;
+	transition: 0.3s;
+	font-weight: 700;
+	text-align: center;
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+/* Carousel */
+
+.slider .indicators .indicator-item.active {
+	background-color: #FDCF5C;
+}
+
+.carousel {
+	transform: translateY(-50px);
+	height: 100vh;
+	min-height: 550px;
+	max-height: 800px;
+	perspective: 400px;
+}
+
+.carousel .carousel-item {
+	height: 500px;
+	width: 320px;
+}
+
+.carousel h3 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 2.5rem;
+}
+
+.carousel-item p {
+	box-sizing: border-box;
+	color: white;
+}
+
+/* footer */
+
+@media(min-width: 800px) {
+	
+	.mobileSeparatorImage1{
+		display:none;
+	}
+
+	.mobileSeparatorImage2{
+		display:none;
+	}
+
+	.mySeparator {
+		height: 150px;
+	}
+
+	.varContent{
+		display: flex;
+		max-width: 1024px;
+		margin: 0 auto;
+	}
+	.varContent .myContent{
+		flex: 1;
+		padding: 20px 50px;
+	}
+
+
+	footer .center, footer p {
+		text-align: left;
+	}
+	footer p {
+		font-size: 1rem;
+	}
+	footer .divider {
+		display: none;
+	}
+	footer .row {
+		display: flex;
+		justify-content: space-evenly;
+	}
+}
+
+@media(min-width: 992px) {
+
+	/* Navigation and Hero */
+	.navText {
+		color: white;
+		padding-left: 30px;
+		font-size: 1.7rem;
+		margin-left: 15px;
+	}
+	header {
+		height: 10vh;
+		width: 100%;
+		max-width: 1024px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 5px 20px;
+	}
+	.myContent {
+		padding: 20vh 10vw;
+	}
+
+
+
+	/* Cards */
+
+	.myMobileCard {
+		transform: translateY(-10vh);
+		display: flex;
+		width: 80vw;
+		max-width: 1024px;
+	}
+	.myMobileCardImageMenu {
+		flex: 2;
+		background-image: url("/img/Vietnamesischer-Rindfleischsalat.jpg");
+		background-size: cover;
+	}
+	.myMobileCardImageUnternehmen {
+		flex: 2;
+		background-image: url("/img/SmartFridge.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.myCards {
+		display: flex;
+		color: white;
+		width: 100%;
+		height: 90vh;
+		justify-content: center;
+	}
+	.myCardsCenter {
+		display: flex;
+		margin: auto 20px auto 20px;
+		justify-content: space-between;
+		max-width: 1024px;
+		transform: translateY(-5vh)
+	}
+	.mySingleCard {
+		width: 25%;
+		min-width: 300px;
+		background-color: rgba(0, 0, 0, 0.5);
+		justify-content: center;
+		text-align: center;
+	}
+
+	.desktopCard {
+		flex: 3;
+		margin: auto;
+		padding: 80px 20px;
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.desktopCardWir{
+		padding: 80px 20px;
+		justify-content: center;
+		flex:1;
+		color: white;
+		display: flex;
+		align-items: center;
+	}
+
+	/* Backgrounds */
+	.bgHome {
+		background-image: url("/img/bilder/syd-wachs-epqNIYI6S7E-unsplash.jpg");
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bgMenu {
+		background-image: url("/img/bilder/yu-hosoi-qplKfNIP_5g-unsplash.jpg");
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bgAboutUs {
+		background-image: url("/img/bilder/peter-wendt--r5KSMkyoSc-unsplash.jpg");
+		height: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bgUnternehmen {
+		background-image: url("/img/bilder/nadine-primeau-l5Mjl9qH8VU-unsplash.jpg");
+		height: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bgKontakt{
+		background-image: url("/img/bilder/blair-fraser-VF4t6jLMD5g-unsplash.jpg");
+		height: 100%;
+		background-position: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.parallaxHome{
+		background-size: cover;
+		background-image: url("/img/bilder/a-brussel-sprout-on-green-surface.jpg");
+	}
+
+	/* überUns */
+	.vl {
+		border-left: 2px solid white;
+		height: 250px;
+	}
+
+	/* carousel */
+	.carousel {
+		transform: translateY(-50px);
+		height: 800px;
+		perspective: 400px;
+	}
+	.carousel .carousel-item {
+		height: 700px;
+		width: 550px;
+		margin-bottom: 100px;
+	}
+}
